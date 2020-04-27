@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:hint="Enter Mobile Number"
+       android:inputType="number"
+       android:id="@+id/et_Mobile"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_Call"
+        android:text="Call Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_ViewCallLog"
+        android:text="View Log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+
+        android:hint="Enter SMS TExt"
+        android:inputType="textMultiLine"
+        android:id="@+id/etSMS"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <Button
+
+        android:id="@+id/btnSendSMS"
+        android:text="Send SMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
